@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,147894,e=>{"use strict";var t=e.i(861827),c=e.i(62870);e.s(["Select",()=>t.Select,"SelectContent",()=>c.SelectContent,"SelectItem",()=>c.SelectItem,"SelectRoot",()=>c.Select,"SelectTrigger",()=>c.SelectTrigger,"SelectValue",()=>c.SelectValue])}]);
