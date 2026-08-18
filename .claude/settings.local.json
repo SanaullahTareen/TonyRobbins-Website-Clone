@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.tonyrobbins.com)",
+      "Bash(wget --version)",
+      "Bash(curl --version)",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/125.0 Safari/537.36\" \"https://www.tonyrobbins.com/\" -o homepage_raw.html)",
+      "Bash(curl -sI -A \"Mozilla/5.0\" \"https://cdnsnty.tonyrobbins.com/2024-05-08T01-20-51.563Z-Homepage_Cards_BM.mp4\")",
+      "Bash(MAX_PAGES=4 node mirror.mjs)"
+    ]
+  }
+}
